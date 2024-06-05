@@ -11,3 +11,9 @@ jobs:
      steps:
       - name: my-step
         run: echo "hello neha!"
+  my-job3:
+     runs-on: ubuntu-latest
+     steps:
+      - name: my-step
+        run: echo "hello Neha Parween!"
+
