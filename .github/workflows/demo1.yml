@@ -6,3 +6,7 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+  my-job2:
+     steps:
+       -name: my-step
+        run: echo "hello neha!"
