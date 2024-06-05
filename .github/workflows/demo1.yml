@@ -8,5 +8,5 @@ jobs:
         run: echo "Hello World!"
   my-job2:
      steps:
-       -name: my-step
+      - name: my-step
         run: echo "hello neha!"
